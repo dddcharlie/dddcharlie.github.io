@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang-"en">
+<head>
+  <meta charset="utf-8">
+  <title>Lists</title>
+</head>
+<body>
+  <h1>Basic Lists</h1>
+  <h2>Just to refresh your memory</h2>
+  <ul>
+    <li>Apples</li>
+    <li>Bananas</li>
+    <li>Pears</li>
+    <li>Peaches</li>
+  </ul>
+  <p>Above this sentence is a unordered list</p>
+  <ol>
+    <li>Charlie</li>
+    <li>Max</li>
+    <li>John Cooper</li>
+    <li>Robert</li>
+  </ol>
+  <p>Above this sentence is a ordered list</p>
+  <ul>
+    <li>
+      <h3>Apple</h3>
+      <ol>
+        <li>Macbook</li>
+        <li>Macbook Pro</li>
+        <li>Macbook Air</li>
+        <li>IPhone</li>
+      </ol>
+    </li>
+
+    <li>
+      <h3>Dell</h3>
+      <ol>
+        <li>XPS 13</li>
+        <li>Inspiron 11 3000</li>
+        <li>Dell Venue Pro 8</li>
+      </ol>
+    </li>
+  </ul>
+  <p>Above this sentence is a nested list</p>
+  <dl>
+    <dt>Computer</dt>
+    <dd>A piece of machinery that runs on programming code.</dd>
+    <dt>Phone</dt>
+    <dd>A work of art that can wireless talk to friends and family.</dd>
+    <dt>Mouse</dt>
+    <dd>A small squeaky animal</dd>
+  </dl>
+  <p>Above this sentence is a Definition List</p>
+  <p>Lets review what we learned in the first half of the webpage</p>
+  <ul>
+    <li>'ul' is a Unordered List</li>
+    <li>'ol' is a Ordered List</li>
+    <li>'li' is the List Items that go inside a 'ol' or a 'ul'</li>
+    <li>'dl' is the markup for the whole Definition List (the outer layer)</li>
+    <li>'dt' is the markup for defining each definition TERM, exclusively for use inside a 'dl' markup</li>
+    <li>'dd' is the markup for defining the definition DATA, exclusively for use after the 'dt' markup</li>
+  </ul>
+  <table border="25">
+    <tr>
+      <th>XPS 13</th>
+      <th>Macbook Pro Retina</th>
+      <th>HP Spectre x360</th>
+      <th>HP Envy 13</th>
+    </tr>
+    <tr>
+      <td>6th Generation Intel Core</td>
+      <td>5th Generation Intel Core</td>
+      <td>6th Generation Intel Core</td>
+      <td>6th Generation Intel Core</td>
+    </tr>
+    <tr>
+      <td>1866 Hertz 8 GB RAM</td>
+      <td>1600 Hertz 8 GB RAM</td>
+      <td>1600 Hertz 8 GB RAM</td>
+      <td>1600 Hertz 8 GB RAM</td>
+    </tr>
+    <tr>
+      <td>Dell</td>
+      <td>Apple</td>
+      <td>HP</td>
+      <td>HP</td>
+    <tr>
+  <table border="1">
+    <caption><p>Charlie's Schedule</p></caption>
+      <tr>
+        <th></th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+      </tr>
+      <tr>
+        <td>8:00-9:25</td>
+        <td>Be weird</td>
+        <td colspan="2">Meditation</td>
+        <td>Fixing Computers</td>
+        <td colspan="2">Do something on computer</td>
+      </tr>
+      <tr>
+        <td>9:35-11:00</td>
+        <td>Hang out</td>
+        <td colspan="4">Bike</td>
+      </tr>
+      <tr>
+        <td>11:00-12:00</td>
+        <td colspan="5">Lunch</td>
+      </tr>
+      <tr>
+        <td>12:00-1:25</td>
+        <td colspan="5">Watch TV</td>
+      </tr>
+      <tr>
+        <td>1:35-3:00</td>
+        <td colspan="4">Hangout with friends</td>
+        <td>Sleep</td>
+      </tr>
+  </table>
+  <p>Woah, a lot of tables were just presented in front of us, let's go over all the information and make a 'table' review</p>
+  <ul>
+   <li>The 'table' markup is used to start a table while the '/table' markup is used to end a table</li>
+   <li>The 'caption' markup is used for the title of the table</li>
+   <li>The 'tr' markup is to start every row (table row)</li>
+   <li>The 'th' markup is used for a table heading</li>
+   <li>The 'td' markup is for ordinary data included in the table (table data)</li>
+   <li>'colspan' is used for adjusting the horizontal lengths of a cell (column span)</li>
+   <li>Last but not least the 'rowspan' markup is used for adjusting the vertical heights of a cell (row span)</li>
+  </ul>
+  <h1>I sincerly hope you have learned something from this page!!!</h1>
+</body>
+</html>
