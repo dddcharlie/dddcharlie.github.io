@@ -1,0 +1,43 @@
+<html>
+<head>
+  <title>Fun Thing</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <script type="text/javascript">
+    var a = confirm("Hello, are you human")
+    if(a===true) {
+      alert("Hello friend")
+    }
+    else {
+      alert("Nice to meet you!")
+    }
+    var name = prompt("So, before we start, what is your name? This process is to document for the FBI.")
+    var whatisname = confirm("So, using my ultimate and sophisticated brain power, I now know that your name is" + " " + name + " " + "right?")
+      if (whatisname === true) {
+        alert("Thank you" + " " + name)
+      }
+      else {
+        alert("Whateves you say, lets move on")
+      }
+    var b = confirm("How are you today")
+    if(b===true) {
+      alert("Good, that's very nice")
+      alert("Soooo, have a good day!!!")
+    }
+    else {
+      var c = confirm("Is there anything I can do to make you happier?")
+      if (c===true) {
+        var d = prompt("And what will that be")
+        var e = confirm("So you want me to" + " " + d)
+          if (e===true) {
+            confirm("Sorry, but I can't do that, I am too dumb.")
+          }
+          else {
+            alert("I knew you were smart enough to not think that I could do" + " " + d)
+          }
+      }
+    }
+  </script>
+  </body>
+  </html>
