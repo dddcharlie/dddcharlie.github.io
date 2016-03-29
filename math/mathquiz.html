@@ -6,25 +6,71 @@
 <body>
   <script type="text/javascript">
     var answersCorrect = 0
+    var numberTwo = "What is 563*646"
+    var numberThree = "What is the chance of rolling a 1 on a 6 sided die (Use Fractions)"
     var intro = confirm("Are you ready to take the test?")
       if (intro===true) {
         var gaga = confirm("Alright, lets start, please click OK to continue!")
           if (gaga===true) {
             var numberOne = prompt("1. What is the square root of 16?")
               if (numberOne==="4") {
-                answersCorrect = 1
+                var answersCorrect = answersCorrect + 1
                 var gugu = confirm ("Congratulations, your score is now " + answersCorrect)
-              }
-              else {
-                var gege = confirm ("Sorry, but you got the problem wrong, move on or not?")
-                  if (gege===true) {
-                    var numTwo = prompt("What is 563*646")
-                      if(numTwo === "363698") {
-                        var answersCorrect = answersCorrect + 1
-                        alert("Congrats " + answersCorrect)
+                var numtwo = prompt("Here is your second problem: " + numberTwo)
+                  if (numtwo==="363698") {
+                    var answersCorrect = answersCorrect + 1
+                    alert("Congrats, your score is: " + answersCorrect)
+                  }
+                  else {
+                    alert("Sorry, you got the problem wrong!!!" + "  You have " + answersCorrect + " points!")
+                    var haHa = confirm("Do you want to move on")
+                      if (haHa===true) {
+                        var numthree = prompt("Alright, here is third problem " + numberThree)
+                          if (numthree==="1/6") {
+                            var answersCorrect = answersCorrect + 1
+                            alert("Congrats, you now have: " + answersCorrect)
+                          }
+                          else {
+                            alert("Sorry, you got the problem wrong.  You now have " + answersCorrect + " points.")
+                            alert("Your final score is " + answersCorrect + "/3 correct.")
+                          }
                       }
                       else {
-                        alert("Solli!!!")
+                        alert("OK, BB")
+                      }
+                  }
+              }
+              else {
+                var gege = confirm("Sorry, but you got the problem wrong, move on or not?")
+                  if (gege===true) {
+                    var numTwo = prompt(numberTwo)
+                      if(numTwo === "363698") {
+                        var answersCorrect = answersCorrect + 1
+                        alert("Congrats, your score is now " + answersCorrect)
+                        var numThree = prompt("Here comes your third problem: " + numberThree)
+                          if (numThree==="1/6") {
+                            var answersCorrect = answersCorrect + 1
+                            alert("Good job, your score is now " + answersCorrect)
+                          }
+                          else {
+                            alert("Sorry, you got the problem wrong.  You now have " + answersCorrect + " points.")
+                            alert("Your final score is " + answersCorrect + "/3 correct.")
+                          }
+                      }
+                      else {
+                        alert("Sorry, you got the problem wrong.  You now have " + answersCorrect + " points.")
+                        var toga = confirm("Do you want to move on?")
+                          if (toga===true) {
+                            var threeNum = prompt("Here comes your third problem: " + numberThree)
+                              if (threeNum==="1/6") {
+                                var answersCorrect = answersCorrect + 1
+                                alert("Congrats, you now have " + answersCorrect + " points!")
+                                alert("Your final score is " + answersCorrect + "/3 correct")
+                              }
+                              else {
+                                alert("Sorry, you got the problem wrong.  Your final score is " + answersCorrect + "/3 correct!")
+                              }
+                          }
                       }
                   }
                   else {
