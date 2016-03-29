@@ -1,0 +1,45 @@
+<html>
+<head>
+  <title>Math Test</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <script type="text/javascript">
+    var answersCorrect = 0
+    var intro = confirm("Are you ready to take the test?")
+      if (intro===true) {
+        var gaga = confirm("Alright, lets start, please click OK to continue!")
+          if (gaga===true) {
+            var numberOne = prompt("1. What is the square root of 16?")
+              if (numberOne==="4") {
+                answersCorrect = 1
+                var gugu = confirm ("Congratulations, your score is now " + answersCorrect)
+              }
+              else {
+                var gege = confirm ("Sorry, but you got the problem wrong, move on or not?")
+                  if (gege===true) {
+                    var numTwo = prompt("What is 563*646")
+                      if(numTwo === "363698") {
+                        var answersCorrect = answersCorrect + 1
+                        alert("Congrats " + answersCorrect)
+                      }
+                      else {
+                        alert("Solli!!!")
+                      }
+                  }
+                  else {
+                    alert("Sorry for bothering you, BB!!!")
+                  }
+              }
+
+          }
+          else {
+            alert("Ooh, I sorry to bother you, BB!!!")
+          }
+      }
+      else {
+        alert("BB, and have a nice day")
+      }
+  </script>
+</body>
+</html>
