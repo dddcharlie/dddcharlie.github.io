@@ -20,15 +20,22 @@
                   if (numtwo==="363698") {
                     var answersCorrect = answersCorrect + 1
                     alert("Congrats, your score is: " + answersCorrect)
+                    var extra = prompt("Alright, here is third problem " + numberThree)
+                      if (extra === "1/6") {
+                        var answersCorrect = answersCorrect + 1
+                        alert("You answered correctly, you now have " + answersCorrect + " points!")
+                        alert("Your final score is " + answersCorrect + "/3 points!!!")
+                      }
                   }
                   else {
                     alert("Sorry, you got the problem wrong!!!" + "  You have " + answersCorrect + " points!")
                     var haHa = confirm("Do you want to move on")
                       if (haHa===true) {
                         var numthree = prompt("Alright, here is third problem " + numberThree)
-                          if (numthree==="1/6") {
+                          if (numthree === "1/6") {
                             var answersCorrect = answersCorrect + 1
-                            alert("Congrats, you now have: " + answersCorrect)
+                            alert("You answered correctly, you now have " + answersCorrect + " points!!!")
+                            alert("Your final score is " + answersCorrect + "/3 points!!!")
                           }
                           else {
                             alert("Sorry, you got the problem wrong.  You now have " + answersCorrect + " points.")
